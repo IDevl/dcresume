@@ -1,0 +1,307 @@
+
+
+
+body {
+  background-color: grey;
+  font-family: Consolas, sans-serif;
+}
+
+div.mainContact {
+  margin: auto;
+  margin-top: 10%;
+  width: 800px;
+  height: auto;
+  background-color: black;
+  border-radius: 5px;
+  box-shadow: -1px 0px 2px #333333;
+}
+
+@media only screen and (max-width: 1000px) {
+  div.mainContact {
+  width: 100%;
+}
+}
+
+
+@media only screen and (max-width: 780px) {
+
+  div.mainContact {
+    margin-top: 0;
+    height: auto;
+    text-align: center;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+div.navigation {
+  margin-top: 10vh;
+  float: right;
+  display: inline-block;
+  margin-left: 0;
+  background-color: black;
+}
+
+
+a.navigations {
+  text-align: left;
+  margin: 20px;
+  padding: 15px;
+  display: block;
+  background-color: #404040;
+  text-decoration: none;
+  border-radius: 50px;
+  width: auto;
+  height: auto;
+}
+
+
+a.navigations.active, a.navigations:hover {
+  background-color: orange;
+}
+
+
+
+@media only screen and (max-height: 800px) {
+  div.navigation {
+    margin-top: 2vh;
+  }
+}
+
+@media only screen and (max-height: 590px) {
+  div.mainContact {
+    height: 100%;
+  }
+
+  div.navigation {
+    margin-top: 1vh;
+    float: right;
+  }
+
+  a.navigations {
+    display: inline-block;
+    padding: 10px;
+  }
+}
+
+
+
+
+
+
+
+
+div.subContact1 {
+  float: left;
+  text-align: left;
+  display: inline-block;
+  width: 30%;
+  height: auto;
+  background-color: black;
+}
+
+
+h1.headerContact1 {
+  display: block;
+  color: white;
+  font-size: 30px;
+  text-transform: uppercase;
+  background-color: orange;
+  margin: 0;
+  padding-left: 10%;
+}
+
+a.contacts {
+  display: block;
+  text-decoration: none;
+  color: white;
+  margin-top: 20%;
+  font-size: 15px;
+  padding-left: 10%;
+}
+
+a.contacts:hover {
+  color: orange;
+}
+
+
+div.subContact2 {
+  display: inline-block;
+  background-color: orange;
+  width: 55%;
+  height: auto;
+  margin-left: 2px;
+}
+
+h1.headerContact2 {
+  color: #262626;
+  font: 25px Times New Roman;
+  font-weight: bolder;
+  text-align: center;
+  padding-top: 20px;
+}
+
+
+div.form {
+  text-align: left;
+}
+
+
+input.form {
+  text-decoration: none;
+  display: block;
+  background-color: orange;
+  font: 18px Times New Roman;
+  margin-left: 20px;
+  border: 0;
+  margin-top: 10px;
+  border-bottom: 1px solid black;
+}
+
+input.message {
+  margin-top: 120px;
+  text-decoration: none;
+  display: inline-block;
+  background-color: orange;
+  font: 18px Times New Roman;
+  margin-left: 20px;
+  border: 0;
+  border-bottom: 1px solid black;
+}
+
+
+input.formButton {
+  color: white;
+  float: right;
+  text-decoration: none;
+  display: inline-block;
+  background-color: black;
+  font: 15px Times New Roman;
+  padding: 5px 15px;
+  border: 1px solid grey;
+  margin-top: 115px;
+  margin-right: 15px;
+}
+
+
+@media only screen and (max-width: 780px) {
+
+  div.navigation {
+    float: none;
+    margin: auto;
+    display: block;
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid grey;
+  }
+
+  a.navigations {
+    display: inline-block;
+    width: auto;
+    padding: 10px;
+  }
+
+  div.subContact1 {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-bottom: 40px;
+    text-align: center;
+  }
+
+  h1.headerContact1 {
+    padding-left: 0;
+    font-size: 30px;
+  }
+
+  a.contacts {
+    margin-top: 10%;
+    font-size: 15px;
+    padding-left: 0;
+  }
+
+  div.subContact2 {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    margin: 0;
+    padding-bottom: 50px;
+    text-align: center;
+  }
+
+  h1.headerContact2 {
+      display: block;
+  }
+
+  input.message {
+    display: block;
+    margin-top: 10px;
+  }
+  input.formButton {
+    margin-top: 20px;
+    margin-left: 20px;
+    display: block;
+    float:left;
+  }
+
+}
+
+
+@media only screen and (max-width: 420px) {
+  h1.headerContact1 {
+    font-size: 25px;
+  }
+  a.contacts {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  input.form {
+    font-size: 4vw;
+  }
+  input.message {
+    font-size: 4vw;
+  }
+  input.formButton {
+    font-size: 4vw;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 780px) {
+
+
+}

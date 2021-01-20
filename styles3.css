@@ -1,0 +1,335 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+  background-color: grey;
+  font-family: Times New Roman, sans-serif;
+  height: auto;
+}
+
+div.mainWorks {
+  margin: auto;
+  width: 800px;
+  height: auto;
+  background-color: black;
+  border-radius: 5px;
+  box-shadow: 0px 0px 2px #333333;
+}
+
+
+div.navigation {
+  display: inline-block;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  display: inline-block;
+  border-bottom: 1px solid grey;
+  width: 100%;
+  background-color: black;
+}
+
+
+a.navigations {
+  text-align: left;
+  margin: 20px;
+  padding: 10px;
+  display: inline-block;
+  background-color: #404040;
+  text-decoration: none;
+  border-radius: 50px;
+  width: auto;
+  height: auto;
+  color: white;
+}
+
+
+a.navigations.active, a.navigations:hover {
+  background-color: orange;
+}
+
+button.hireNow {
+  display: inline-block;
+  background-color: #262626;
+  border: 1px solid grey;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: orange;
+  float: right;
+  position: relative;
+  top: 20px;
+  right: 5%;
+  margin: auto;
+}
+
+
+
+@media only screen and (max-width: 900px) {
+    div.mainWorks {
+    margin: auto;
+    width: 100%;
+    height: auto;
+    }
+
+    a.navigations {
+      margin-left: 3%;
+      margin-right: 3%;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+  button.hireNow {
+    display: none;
+  }
+}
+
+
+div.introduction {
+  display: block;
+  background-image: url(background1.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  text-align: left;
+  padding-top: 70px;
+  padding-bottom:100px;
+}
+
+
+div.name {
+  display: inline-block;
+  text-align: left;
+  padding-left: 20px;
+  width: 50%;
+}
+
+div.jett {
+  background-image: url(jett.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: -250px;
+  float: right;
+  width: 300px;
+  height: 250px;
+  border: transparent;
+  opacity: 1.0;
+}
+
+
+
+h1.nameDesc {
+  font-size: 15px;
+  color: white;
+}
+h1.name {
+  font: 30px Aclonica, sans-serif;
+  color: orange;
+  font-weight: bolder;
+  margin-top: 10px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+button.hireNow2 {
+  background-color: #262626;
+  color: orange;
+  text-transform: uppercase;
+  font: 15px Arial;
+  font-weight: bold;
+  padding: 15px 40px;
+  border: 1px solid grey;
+  margin-top: 20px;
+}
+
+
+
+@media only screen and (max-width: 720px) {
+
+  div.introduction {
+    padding-top: 15%;
+    padding-bottom: 20%;
+  }
+  div.name {
+    width: 100%;
+  }
+  h1.nameDesc {
+    font-size: 2vw;
+  }
+  h1.name {
+    margin-top: 10px;
+    font-size: 6vw;
+  }
+  button.hireNow2 {
+    font-size: 3vw;
+    margin-top: 3vw;
+    padding: 2vw 7vw;
+  }
+
+}
+
+
+
+
+div.works {
+  display: block;
+  background-color: #1a1a1a;
+  width: 100%;
+  background-size: cover;
+  text-align: left;
+  padding-bottom: 50px;
+  border-top: 1px solid black;
+}
+
+h1.works1 {
+  margin-top: 10px;
+  padding: 0px 20px;
+  font: 30px Consolas, sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  text-align: center;
+  color: orange;
+  border-bottom: 1px solid grey;
+}
+
+h1.works2 {
+  margin-top: 100px;
+  padding: 0px 20px;
+  font: 30px Consolas, sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  text-align: center;
+  color: orange;
+  border-bottom: 1px solid grey;
+
+}
+
+div.dcworks {
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 40px;
+  border: 5px solid black;
+  text-align: center;
+  background-size: cover;
+}
+
+h1.dcworks {
+  margin: 5px;
+  text-align: center;
+  font: 17px Tahoma;
+  text-transform: uppercase;
+  color: white;
+}
+
+
+img.dcworks {
+  margin: auto;
+  height: 100px;
+  width: 200px;
+  background-size: cover;
+  border-bottom: 3px solid orange;
+}
+
+button.dcworks {
+  margin: 10px;
+  background-color: orange;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 8px 20px;
+  font: 10px Arial;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+
+
+@media only screen and (max-width: 900px) {
+  div.dcworks {
+    margin-left: 6vw;
+    width: 23vw;
+  }
+
+  img.dcworks {
+    width: 23vw;
+  }
+  h1.dcworks {
+    font-size: 2vw;
+  }
+
+  button.dcworks {
+    font-size: 1.7vw;
+  }
+
+
+}
+
+@media only screen and (max-width: 666px) {
+  div.dcworks {
+    margin: auto;
+    margin-top: 20px;
+    display: block;
+    width: 50vw;
+  }
+  img.dcworks {
+    width: 50vw;
+  }
+
+  h1.works2 {
+    margin-top: 10vw;
+  }
+
+  h1.dcworks {
+    font-size: 4vw;
+  }
+
+  button.dcworks {
+    font-size: 3vw;
+  }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

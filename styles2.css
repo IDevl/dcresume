@@ -1,0 +1,486 @@
+
+
+
+body {
+  background-color: grey;
+  font-family: Times New Roman, sans-serif;
+  height: auto;
+}
+
+div.mainHome {
+  margin: auto;
+  width: 800px;
+  height: auto;
+  background-color: #1a1a1a;
+  border-radius: 5px;
+  box-shadow: -1px 0px 2px #333333;
+  text-align: center;
+  border-bottom: 1px solid white;
+}
+
+
+@media only screen and (max-width: 900px) {
+    div.mainHome {
+    margin: auto;
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+
+
+
+
+div.navigation {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  display: inline-block;
+  border-bottom: 1px solid grey;
+  width: 100%;
+  background-color: black;
+}
+
+
+a.navigations {
+  text-align: left;
+  margin: 20px;
+  padding: 10px 10px;
+  display: inline-block;
+  background-color: #404040;
+  text-decoration: none;
+  border-radius: 50px;
+  width: auto;
+  height: auto;
+}
+
+
+a.navigations.active, a.navigations:hover {
+  background-color: orange;
+}
+
+
+
+div.mainResume {
+  display: block;
+  margin: auto;
+  height: auto;
+  background-color: #1a1a1a;
+  text-align: center;
+}
+
+
+
+
+div.name {
+  display: block;
+  text-align: center;
+}
+
+h1.name1 {
+  display: inline-block;
+  color: orange;
+  text-transform: uppercase;
+  margin-right: 10px;
+}
+
+h1.name2 {
+  display: inline-block;
+  text-transform: uppercase;
+  color: white;
+}
+
+
+@media only screen and (max-width: 440px) {
+    h1.name1 {
+    font-size: 6.7vw;
+    margin-right: 2px;
+  }
+    h1.name2 {
+    font-size: 6.7vw;
+  }
+}
+
+
+div.photo {
+  width: 100%;
+  height: auto;
+  padding-bottom: 20px;
+  border-bottom: 1px solid grey;
+}
+
+img.photo {
+  height: 100px;
+  width: 150px;
+  border-radius: 15px;
+  border: 1px solid black;
+  box-shadow: 0px 0px 5px 5px #0d0d0d;
+}
+@media only screen and (max-width: 440px) {
+  img.photo {
+    width: 40%;
+    height: 20vw;
+  }
+}
+
+
+div.objective {
+  width: 100%;
+  display: block;
+  height: auto;
+  text-align: center;
+  border-bottom: 1px solid grey;
+}
+
+h1.headerNyo1 {
+  width: 100%;
+  background-color: #595959;
+  color: white;
+  display: inline-block;
+  margin: auto;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+h1.headerNyo2 {
+  width: 100%;
+  background-color: #595959;
+  color: white;
+  display: inline-block;
+  margin: auto;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+
+p.paragraphNyo {
+  background-color: #1a1a1a;
+  color: #d9d9d9;
+  padding: 20px;
+  display: inline-block;
+  margin: auto;
+  font-size: 15px;
+}
+
+
+
+div.subResume {
+  display: block;
+  width: 100%;
+  height: auto;
+  background-color: #1a1a1a;
+}
+
+div.subResume1 {
+  float: left;
+  display: inline-block;
+  width: 50%;
+  height: auto;
+  background-color: #1a1a1a;
+}
+
+div.subResume2 {
+  float: right;
+  display: inline-block;
+  width: 49.8%;
+  height: auto;
+  border-left: 1px solid grey;
+  background-color: #1a1a1a;
+}
+
+
+
+@media only screen and (max-width: 650px) {
+
+  div.subResume {
+    display: block;
+    height: auto;
+  }
+
+  div.subResume1 {
+    width: 100%;
+    float: none;
+    display: block;
+  }
+
+  div.subResume2 {
+    float: none;
+    display: block;
+    width: 100%;
+    border-top: 1px solid grey;
+    border-left: none;
+  }
+}
+
+  div.contactDetails {
+    height: auto;
+    background-color: #1a1a1a;
+  }
+
+
+
+a.paragraphNyo1 {
+  background-color: #1a1a1a;
+  color: #d9d9d9;
+  padding-top: 5px;
+  padding-left: 10%;
+  padding-bottom: 5px;
+  display: block;
+  margin: auto;
+  font-size: 15px;
+  width: auto;
+  text-align: left;
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+a.paragraphNyo2 {
+  background-color: #1a1a1a;
+  color: #d9d9d9;
+  padding-top: 5px;
+  padding-left: 10%;
+  padding-bottom: 5px;
+  display: block;
+  margin: auto;
+  font-size: 15px;
+  width: auto;
+  text-align: left;
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+a.paragraphNyo3 {
+  background-color: #1a1a1a;
+  color: #d9d9d9;
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  display: block;
+  margin: auto;
+  font-size: 15px;
+  width: auto;
+  text-align: left;
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+a.paragraphNyo4 {
+  background-color: #1a1a1a;
+  color: #d9d9d9;
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-bottom: 5px;
+  display: block;
+  margin: auto;
+  font-size: 15px;
+  width: auto;
+  text-align: left;
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+a.paragraphNyo1:hover {
+  color: black;
+  background-color: #ffcc00;
+}
+a.paragraphNyo2:hover {
+  color: black;
+  background-color: #ffcc00;
+}
+a.paragraphNyo3:hover {
+  color: black;
+  background-color: #ffcc00;
+}
+a.paragraphNyo4:hover {
+  color: black;
+  background-color: #ffcc00;
+}
+
+
+
+
+h1.headerAcademic {
+  width: auto;
+  color: #cccccc;
+  display: block;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 5px;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+p.paragraphAcademic1 {
+  width: auto;
+  color: white;
+  display: block;
+  margin-top: -8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: left;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+p.paragraphAcademic2 {
+  width: auto;
+  color: #cccccc;
+  display: block;
+  margin-left: 15px;
+  margin-top: 4px;
+  text-align: left;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+
+
+div.personalData {
+  height: auto;
+  background-color: #1a1a1a;
+}
+
+div.skillsData {
+  height: auto;
+  background-color: #1a1a1a;
+}
+
+div.seminarData {
+  height: auto;
+  background-color: #1a1a1a;
+  padding-bottom: 20px;
+}
+
+
+div.academic {
+  height: auto;
+  background-color: #1a1a1a;
+  padding-bottom: 20px;
+}
+
+div.characterReferences {
+  height: auto;
+  background-color: #1a1a1a;
+  padding-bottom: 50px;
+  border-bottom: 1px solid grey;
+}
+
+button.myWorks {
+  text-decoration: none;
+  background-color: orange;
+  margin: 18px;
+
+  border: 0;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font: 20px Times New Roman;
+  font-weight: bolder;
+  color: white;
+  text-transform: uppercase;
+}
+
+
+
+
+@media only screen and (max-width: 650px) {
+
+  h1.headerNyo1 {
+    font-size: 3.5vw;
+  }
+
+  p.paragraphNyo {
+    font-size: 2.7vw;
+    padding: 3%;
+  }
+
+  h1.headerNyo2 {
+    font-size: 3vw;
+  }
+  div.contactDetails {
+    display: block;
+    float: none;
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+  }
+  div.personalData {
+    display: block;
+    float: none;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+  }
+  div.skillsData {
+    padding-bottom: 10px;
+  }
+  div.seminarData {
+    padding-bottom: 10px;
+  }
+
+  a.paragraphNyo1 {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    padding-left: 0;
+    font-size: 2.7vw;
+  }
+
+  a.paragraphNyo2 {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    padding-left: 0;
+    font-size: 2.7vw;
+  }
+
+  a.paragraphNyo3 {
+    text-align: center;
+    margin: 0;
+    font-size: 2.7vw;
+  }
+
+  a.paragraphNyo4 {
+    text-align: center;
+    padding-left: 0;
+    font-size: 2.7vw;
+  }
+
+  h1.headerAcademic {
+    margin: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: left;
+    padding-top: 4%;
+    font-size: 2.7vw;
+  }
+  p.paragraphAcademic1 {
+    margin: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: left;
+    font-size: 2.5vw;
+  }
+  p.paragraphAcademic2 {
+    margin: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: left;
+    font-size: 2.5vw;
+  }
+
+  div.characterReferences {
+    padding-bottom: 20px;
+  }
+  button.myWorks {
+    font-size: 3vw;
+  }
+
+}

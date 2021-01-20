@@ -1,0 +1,285 @@
+
+
+
+body {
+  background-color: grey;
+  font-family: Consolas, sans-serif;
+}
+
+div.mainHome {
+  margin: auto;
+  margin-top: 10%;
+  width: 800px;
+  height: 50vh;
+  background-color: #0d0d0d;
+  border-radius: 5px;
+  box-shadow: -1px 0px 2px #333333;
+}
+
+@media only screen and (max-width: 1000px) {
+  div.mainHome {
+  width: 100%;
+}
+}
+
+
+
+div.profilePic {
+  display: inline-block;
+  float: left;
+  width: 250px;
+  height: 100%;
+  padding-left: 3%;
+  padding-top: 10vh;
+  margin: auto;
+  border-radius: 220px;
+}
+
+img.photo {
+  height: 60%;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 15px black;
+}
+
+
+@media only screen and (max-width: 780px) {
+
+  div.mainHome {
+    margin-top: 0;
+    height: auto;
+    text-align: center;
+  }
+
+  div.profilePic {
+    text-align: center;
+    margin-top: 2vh;
+    width: 100%;
+    height: auto;
+    padding: 0;
+}
+
+  img.photo {
+    margin: auto;
+    width: 40%;
+    height: auto;
+  }
+}
+
+
+
+
+
+
+div.introduction {
+  display: inline-block;
+  width: 52%;
+  height: 100%;
+  background-color: #0d0d0d;
+}
+
+div.name {
+  margin-top: 10vh;
+}
+
+
+div.description {
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+
+
+
+h1 {
+  color: white;
+  text-transform: uppercase;
+}
+
+p {
+  display: inline;
+  color: white;
+  text-transform: uppercase;
+}
+
+
+h1.h1 {
+    font-size: 15px;
+    font-weight: 100;
+}
+
+p.p1 {
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    letter-spacing: -5px;
+}
+p.p2 {
+    color: orange;
+    font-size: 30px;
+    font-weight: bolder;
+    letter-spacing: -2px;
+    margin-left: 2%;
+}
+
+p.p3 {
+  font-family: sans-serif;
+  color: #b3b3b3;
+  font-size: 12px;
+  text-transform: none;
+  line-height: 20px;
+}
+
+button.learnmore {
+  margin-top: 3vh;
+  margin-bottom: 8vh;
+  background-color: #e68a00;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font: 15px Tahoma, sans-serif;
+  font-weight: bolder;
+  padding: 15px 30px;
+  border-radius: 50px;
+  border: none;
+}
+
+button.learnmore:hover {
+  background-color: #b34700;
+}
+
+
+@media only screen and (max-width: 380px) {
+p.p1 {
+  font-size: 20px;
+}
+
+p.p2 {
+  font-size: 20px;
+}
+
+
+}
+
+@media only screen and (max-width: 780px) {
+
+  div.introduction {
+    text-align: center;
+    padding-top: 0;
+    width: 100%;
+  }
+
+  div.name {
+    margin-top: 5vh;
+    margin-bottom: 1vh;
+  }
+
+  div.description {
+    margin: auto;
+    width: 60%;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div.navigation {
+  margin-top: 10vh;
+  float: right;
+  display: inline-block;
+}
+
+
+a.navigations {
+  text-align: left;
+  margin: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: block;
+  background-color: #404040;
+  text-decoration: none;
+  border-radius: 50px;
+  width: auto;
+  height: auto;
+}
+
+
+@media only screen and (max-height: 800px) {
+  div.navigation {
+    margin-top: 2vh;
+  }
+}
+
+@media only screen and (max-height: 590px) {
+  div.mainHome {
+    height: 100%;
+  }
+
+  div.introduction {
+    height: auto;
+  }
+
+  div.navigation {
+    margin-top: 1vh;
+    float: right;
+  }
+
+  a.navigations {
+    display: inline-block;
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-height: 400px) {
+
+  div.name {
+    margin-top: 0;
+  }
+
+  button.learnmore {
+    margin: 1%;
+    padding: 3vh 5vh;
+    font-size: 3vh;
+  }
+
+  div.navigation {
+    margin: 0;
+  }
+
+
+
+}
+
+
+@media only screen and (max-width: 780px) {
+
+  div.navigation {
+    float: none;
+    margin: auto;
+    display: block;
+  }
+
+  a.navigations {
+    display: inline-block;
+    width: auto;
+    padding: 10px;
+  }
+
+}
+
+
+a.navigations.active, a.navigations:hover {
+  background-color: orange;
+}
